@@ -676,15 +676,6 @@ article:hover img {
   padding: 12px 14px;
 }
 
-.mobile-profile-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 4px;
-  border-radius: 9999px;
-  border: 1px solid rgba(148, 163, 184, 0.18);
-  background: rgba(15, 23, 42, 0.32);
-}
 
 .mobile-menu-bar {
   min-height: 62px;
@@ -702,6 +693,7 @@ article:hover img {
   align-items: center;
   justify-content: center;
   transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  position: absolute;
 }
 
 .mobile-menu-toggle:hover {
@@ -716,6 +708,8 @@ article:hover img {
 }
 
 .mobile-menu-title {
+  margin-top: 8px;
+  margin-left: 52px;
   min-width: 0;
   flex: 1;
   display: flex;

@@ -84,10 +84,6 @@ function MobileNav({
                     <strong>GameVault</strong>
                     <span>{currentLabel}</span>
                 </div>
-
-                <div className="mobile-profile-chip" title={username}>
-                    <div className="mobile-profile-icon">{userInitial}</div>
-                </div>
             </div>
 
             {menuOpen && (
